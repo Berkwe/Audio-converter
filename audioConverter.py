@@ -65,7 +65,7 @@ def convert(fileQueue: Queue, inExt, outExt, outPath):
             fileQueue.task_done()
 # For control table
 def createTable(inPath, outPath, inExt, outExt, maxThreads, fileVal):
-    estimatedTime = ((fileVal-(fileVal % 10))/(maxThread-(maxThread % 10)))*4
+    estimatedTime = (((fileVal-(fileVal % 10))/(maxThread-(maxThread % 10)))*4)+4
     table = PrettyTable()
     
     table.field_names = ["Açıklama", "Değer"]
