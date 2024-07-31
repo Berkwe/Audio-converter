@@ -35,7 +35,7 @@ Audio Converter, ses dosyalarını kolayca dönüştürmenizi sağlayan güçlü
    
 
    - **Terminalde Audio Converter'in olduğu klasörü açın.**
-   - **[Buradan kullanımı öğrenin](https://github.com/Berkwe/Audio-converter#exe-ile)**
+   - **[Buradan kullanımı öğrenin](https://github.com/Berkwe/Audio-converter?tab=readme-ov-file#-exe-ile)**
    
 ## 🐍 Python Şeklinde:
 
