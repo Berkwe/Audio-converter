@@ -52,9 +52,10 @@ def convert(fileQueue: Queue, inExt, outExt, outPath):
         if file is None:
             break
         try:
-            audio = AudioSegment.from_file(file, inExt.replace(".", ""))
+            
+            audio = AudioSegment.from_file(file)
             outPathForAudio = os.path.join(outPath, os.path.basename(file).replace(inExt, outExt))
-            audio.export(outPathForAudio, format=outExt.replace(".", ""))
+            audio.export(outPathForAudio)
             print(f"{success}Başarılı! Dönüştürülen dosyalar : {convertedAudios}, {os.path.basename(file)} --> {os.path.basename(file).replace(inExt, outExt)}")
             convertedAudios += 1
         except Exception as f:
