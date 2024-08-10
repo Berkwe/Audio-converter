@@ -26,7 +26,7 @@ Audio Converter, ses dosyalarını kolayca dönüştürmenizi sağlayan güçlü
 
 ### Adımlar
 1. **Exe'yi indirin:**
-   [AudioConverter.exe](https://github.com/Berkwe/Audio-converter/releases/download/1.0/AudioConverter.exe)
+   [AudioConverter.exe](https://github.com/Berkwe/Audio-converter/releases/download/1.1/AudioConverter.exe)
 
 
 2. **Cmd veya powershell ile çalıştırın:**
